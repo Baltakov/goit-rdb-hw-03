@@ -38,8 +38,8 @@ Task 4
 
 SELECT COUNT(*) AS products_count
 FROM `3`.products
-WHERE price >= 20 AND price < 100;
-;
+WHERE price >= 20 AND price <= 100;
+
 ____________________________________
 
 
